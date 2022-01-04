@@ -2,9 +2,7 @@
   "name": "cypress-test-ui-app",
   "version": "1.0.0",
   "description": "Cypress UI Test App",
-  "repository": {
-
-  },
+  "repository": {},
   "author": "Cypress UI Test Team",
   "license": "MIT",
   "engines": {
@@ -83,7 +81,7 @@
     "concurrently": "6.4.0",
     "cors": "2.8.5",
     "cross-env": "7.0.3",
-    "cypress": "9.1.1",
+    "cypress": "^9.2.0",
     "dotenv": "10.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-cypress": "2.12.1",
