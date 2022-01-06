@@ -1,22 +1,22 @@
-import pageobj from '../pageobject'
+import signuppo from '../pageobject'
 
 describe('Sign up', () => {
 
-    const login = new pageobj();
+    const regist = new signuppo();
 
     it('should should have all logos, fields, buttons etc.', () => {
-        login.navigate();
-        login.checkElements();
+        regist.navigate();
+        regist.logo().should('have.attr', 'xmlns', 'http://www.w3.org/2000/svg')
+        .and('be.visible');
+        regist.firstname().should('be.visible');
+        regist.lastname().should('be.visible');
+        regist.username().should('be.visible');
+        regist.password().should('be.visible');
+        regist.confirm().should('be.visible');
+        regist.button().should('be.visible');
     });
 
     it('. User can register with valid data', () => {
-        login.register();
-        login.checkurl();
-        login.username().type('karinababii1');
-        login.password().type('karina0502');
-        login.button().click();
-        login.invalid();
-       login.addcard();
-       login.checkaccount();
+        cy.registration();
     });
 });
