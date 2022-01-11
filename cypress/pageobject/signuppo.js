@@ -1,10 +1,7 @@
 import { cy } from "date-fns/locale";
 
-class regist {
-    navigate() {
-        cy.visit('http://localhost:3000/signup')
-    }
-
+class register {
+    
     logo() {
         cy.get('div > svg')
     }
@@ -34,4 +31,4 @@ class regist {
     }
 
 }
-export default regist;
+export default register;

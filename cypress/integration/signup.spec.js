@@ -1,11 +1,12 @@
-import signuppo from '../pageobject'
+import { cy } from 'date-fns/locale';
+import register from '../pageobject/signuppo'
 
 describe('Sign up', () => {
 
-    const regist = new signuppo();
+    const regist = new register();
 
     it('should should have all logos, fields, buttons etc.', () => {
-        regist.navigate();
+        cy.visit('/signup');
         regist.logo().should('have.attr', 'xmlns', 'http://www.w3.org/2000/svg')
         .and('be.visible');
         regist.firstname().should('be.visible');

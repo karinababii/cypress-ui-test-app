@@ -74,6 +74,17 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
+    },
+    {
+      "id": "Xi2h0elf1",
+      "uuid": "e3501fd8-4359-421f-a0fa-f9cef933cd6b",
+      "firstName": "karina",
+      "lastName": "babii",
+      "username": "karinababii",
+      "password": "$2a$10$1kmPBBsmq1ebWREMZZQPXuuYP69kiQpy7H9RxeRahNt58tmEoHL1.",
+      "balance": 0,
+      "createdAt": "2022-01-10T18:02:50.919Z",
+      "modifiedAt": "2022-01-10T18:02:50.919Z"
     }
   ],
   "contacts": [
@@ -253,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
+    },
+    {
+      "id": "hifXq_e1G",
+      "uuid": "e6ec21e6-bcd5-42a8-ad0b-167db2035101",
+      "userId": "Xi2h0elf1",
+      "bankName": "monobank",
+      "accountNumber": "987654321",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2022-01-10T18:03:14.353Z",
+      "modifiedAt": "2022-01-10T18:03:14.353Z"
     }
   ],
   "transactions": [

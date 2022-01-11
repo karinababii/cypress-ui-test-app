@@ -1,20 +1,15 @@
-const { cy } = require("date-fns/locale");
-
 class login {
-    navigate() {
-        cy.visit('http://localhost:3000')
-    }
-
+    
     logo() {
-        cy.get('div > svg')
+       return cy.get('div > svg')
     }
 
     username() {
-        cy.get('[data-test="signin-username"]')
+       return cy.get('[data-test="signin-username"]')
     }
 
     password() {
-        cy.get('[data-test="signin-password"]')
+       return cy.get('[data-test="signin-password"]')
     }
 
     rememberme() {
